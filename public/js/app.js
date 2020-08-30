@@ -26,7 +26,8 @@ fetch(url).then((response)=>{
       
       messageTwo.textContent =    'Description: ' + data.forecast.description +
                                   ' Temperature: '+ data.forecast.temperature + 
-                                  ' Feelslike: '  + data.forecast.feelslike
+                                  ' Feelslike: '  + data.forecast.feelslike + 
+                                  ' Humidity: '  + data.forecast.humidity
 
       // console.log(data.location)
       console.log(data.forecast)
